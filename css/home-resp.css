@@ -1,0 +1,452 @@
+@media only screen and (max-width: 1255px) {
+  .box {
+    flex: 0 0 27%;
+    height: 55vh;
+  }
+  .third-service {
+    grid-template-columns: 45% 45%;
+  }
+  .third-img img {
+    height: 55vh;
+  }
+  .service-card .service-icon {
+    height: 65px;
+    width: 65px;
+  }
+  .service-card h1 {
+    font-size: 15px;
+  }
+  .service-card span {
+    font-size: 25px;
+  }
+  .about-services p {
+    font-size: 22px;
+  }
+  .content-23{
+    height: 125vh;
+  }
+  .sixth input {
+    padding: 4% 5%;
+  }
+  .sixth input[type=email]{
+    padding: 2% 2.5%;
+  }
+  .sixth button {
+    border-radius: 5px;
+  }
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+  header {
+    grid-template-columns: 40% 60%;
+  }
+  .first-1 span {
+    font-size: 130px;
+  }
+  .first-2 span {
+    font-size: 130px;
+  }
+  .service-card h1 {
+    font-size: 16px;
+  }
+  .content1 {
+    width: 70%;
+  }
+  .cc {
+    padding-top: 10%;
+  }
+  .cc-text p {
+    font-size: 15px;
+  }
+  .sixth form {
+    width: 60%;
+  }
+  .sixth input {
+    padding: 5% 6%;
+  }
+  .sixth input[type=email]{
+    padding: 2.5% 3%;
+  }
+  .sixth button {
+    border-radius: 5px;
+    padding: 2.5% 6%;
+  }
+  .works {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .content1 {
+    width: 75%;
+  }
+  .content1 p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .content1-img p {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .nav a {
+    font-size: 12px;
+  }
+  .second-content {
+    margin-top: -30px;
+  }
+  .box {
+    flex: 0 0 55%;
+    margin: 20px 0;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .box h3 {
+    font-size: 26px;
+    margin: 18px;
+  }
+  .box p {
+    font-size: 18px;
+  }
+  .third-content {
+    height: auto;
+    padding: 0;
+  }
+  .third-img img {
+    width: 100%;
+    height: auto;
+  }
+  .third h1 {
+    font-size: 40px;
+  }
+  .third-service{
+    height: auto;
+  }
+  .service-card h1 {
+    font-size: 17px;
+  }
+  .third-service {
+    grid-template-columns: 100%;
+  }
+  .service-card {
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-card .service-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0
+  }
+  .service-card h1 {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+  .service-card span {
+    margin: auto 0;
+    font-size: 20px;
+    width: auto;
+    margin-right: 10px;
+  }
+  .about-services {
+    padding: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+  }
+  .about-services h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .about-services p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .content-23 {
+    grid-template-columns: 65%;
+    height: auto;
+  }
+  .cc {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .nav a {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+  header {
+    height: 50px;
+  }
+  .logo-area img{
+    height: 35px;
+  }
+  .nav {
+    justify-content: flex-end;
+    padding-right: 10%;
+  }
+  .nav .bar-icon {
+    display: flex;
+  }
+  .nav span {
+    color: white;
+  }
+  .first-1 span {
+    font-size: 80px;
+  }
+  .first-2 span {
+    font-size: 80px;
+    color:#90e0ef;
+  }
+  .social-links a {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  .second {
+    background-image: url("images/styx.svg");
+    background-size: cover;
+    background-position: left;
+  }
+  .second h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .second p {
+    font-size: 20px;
+    }
+  .box {
+    flex: 0 0 85%;
+    padding-top: 8%;
+  }
+  .box h3 {
+    font-size: 20px;
+  }
+  .box p {
+    font-size: 15px;
+  }
+  .third h1 {
+    font-size: 35px;
+  }
+  .third {
+    padding-bottom: 5%;
+  }
+  .third-content {
+    display: none;
+  }
+  .m-third-content {
+    display: flex;
+    background-image: url("images/w1.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+  .content1 {
+    padding-top: 15%;
+    width: 90%;
+    height: auto;
+  }
+  .content1-img {
+    height: 45px;
+    grid-template-columns: 80% 1% 19%;
+  }
+  .content1 p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-left: 10px;
+  }
+  .content1 span {
+    margin-left: 10px;
+  }
+  .content1-img p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    white-space: nowrap;
+  }
+  .content1-img span {
+    font-size: 20px;
+  }
+  .content1 h3 {
+    font-size: 28px;
+    margin: 10px;
+  }
+
+  .content-23 {
+    grid-template-columns: 100%;
+    display: none;
+  }
+  .m-content2 {
+    display: flex;
+  }
+  .fourth-line {
+    width: 90%;
+  }
+  .fourth-line div {
+    margin: 0 5px;
+  }
+  .fourth h1 {
+    width: 90%;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  .fourth-content {
+    display: none;
+  }
+  .m-fourth-content {
+    display: grid;
+  }
+  .fifth {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  .fifth h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .fifth-content {
+    width: 95%;
+    justify-content: flex-start;
+  }
+  .fifth-content::-webkit-scrollbar {
+    width: 3px;
+  }
+  .works {
+    flex: 0 0 75%;
+    height: 65%;
+    margin: 10px;
+  }
+  .work-types {
+    width: 95%;
+    margin-bottom: 0px;
+  }
+  .work-types a {
+    font-size: 12px;
+    padding: 5%;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 2px;
+    }
+  .close-modal span{
+    font-size: 25px;
+  }
+  .modal-img {
+    height: 35vh;
+    width: 90%;
+  }
+  .modal-img img{
+    height: 35vh;
+  }
+  .modal-img video {
+    height: auto;
+    width: 100%;
+  }
+
+  .sixth {
+    padding-top: 10%;
+
+  }
+  .sixth h1 {
+    width: 90%;
+    font-size: 28px;
+  }
+  .sixth form {
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-height:950px){
+  .box {
+    height: 30vh;
+  }
+  .third-content {
+    height: 40vh;
+  }
+  .third-service {
+    height:40vh;
+  }
+  .service-card {
+    height:15vh ;
+  }
+  .third-img img {
+    height: 30vh;
+  }
+  .content-23 {
+    height: auto;
+  }
+  .cc {
+    height: 65vh;
+  }
+  .fourth-content {
+    height: 50vh;
+    grid-template-columns: 8% 41% 2% 41% 8%;
+    background-image: url("images/styx.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  .fourth-content-2 img {
+    display: none;
+  }
+  .fifth-content {
+    height: 50vh;
+    grid-template-columns: 10% 40%  40% 10%;
+  }
+  .sixth form {
+    width: 70%;
+  }
+}
